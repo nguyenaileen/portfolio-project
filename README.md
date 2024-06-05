@@ -15,4 +15,4 @@ I have a few web development projects buit but no portfolio to showcase them to 
 I created a portfolio page using HTML and CSS so that employers have an easy, eye-catching, user friendly way to easily access all my projects.
 
 Link to deployed application: https://nguyenaileen.github.io/portfolio-project/
-[Screenshot of deployed application](Images/Screenshot.png)
+[Screenshot of deployed application](./assets/images/Screenshot.png)
