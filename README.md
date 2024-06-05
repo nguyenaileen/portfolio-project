@@ -14,10 +14,5 @@ I have a few web development projects buit but no portfolio to showcase them to 
 
 I created a portfolio page using HTML and CSS so that employers have an easy, eye-catching, user friendly way to easily access all my projects.
 
-Link to deployed application: https://nguyenaileen.github.io/semantic-refactor/
+Link to deployed application: https://nguyenaileen.github.io/portfolio-project/
 [Screenshot of deployed application](assets/Deployed-Application-Screenshot.png)
-
-## Credits
-
-https://www.w3schools.com/html/html5_semantic_elements.asp
-https://dev.to/merlos/how-to-write-a-good-readme-bog
