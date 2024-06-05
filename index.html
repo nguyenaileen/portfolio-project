@@ -1,88 +1,115 @@
 <!DOCTYPE html>
-<html lang="en-us">
-
-<head>
+<html lang="en">
+  <head>
     <meta charset="UTF-8" />
-    <link rel="stylesheet" href="./assets/css/style.css">
-    <title>Horiseon: Digital Marketing </title> <!-- Added more specific title -->
-</head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-<body>
-    <header class="header">  <!-- Changed div to header -->
-        <h1>Hori<span class="seo">seo</span>n</h1>
-        <nav> <!-- Changed div to nav -->
-            <ul>
-                <li>
-                    <a href="#search-engine-optimization">Search Engine Optimization</a>
-                </li>
-                <li>
-                    <a href="#online-reputation-management">Online Reputation Management</a>
-                </li>
-                <li>
-                    <a href="#social-media-marketing">Social Media Marketing</a>
-                </li>
-            </ul>
-        </nav> <!-- Changed div to nav -->
-    </header> 
+    <!--Import Google Icon Font-->
+    <link
+      href="https://fonts.googleapis.com/css?family=Montserrat"
+      rel="stylesheet"
+    />
 
-    <section class="hero" title="Four people huddled over papers on a table with a whiteboard in the background"></section> <!-- added alt text -->
+    <link rel="stylesheet" href="style.css" />
 
-    <main class="content"> <!-- changed div to main -->
-        <section id="search-engine-optimization" <section class="search-engine-optimization"> <!-- changed div to section  abd added ID so the link in nav goes to this section--> 
-            <img src="./assets/images/search-engine-optimization.jpg" title="Notepad with seo written in the middle surrounded by 'backlink, content, headings, mobile compatability, social media, and link building' on a wood background with a coffee cup, cup of colored pencils, and laptop" class="float-left" /> <!-- added alt text -->
-            <h2>Search Engine Optimization</h2>
-            <p>
-                The dominance of mobile internet use means that users are searching for the right business as they travel, shop, or sit on their couch at home. Search Engine Optimization (SEO) allows you to increase your visibility and find the right customers for your business.
-            </p>
-        </section> <!-- changed div to section -->
-        <section id="online-reputation-management" class="online-reputation-management"> <!-- changed div to section -->
-            <img src="./assets/images/online-reputation-management.jpg" title="laptop with the word reputation graphs being used by a person also holding phone" class="float-right" /> <!-- added alt text -->
-            <h2>Online Reputation Management</h2>
-            <p>
-                The web is full of opinions, and some of these can be negative. Social media allows anyone with an internet connection to say whatever they want about your business. Online Reputation Management gives you the control over what potential customers see when they search for your business.
-            </p>
-        </section> <!-- changed div to section -->
-        <section id="social-media-marketing" class="social-media-marketing"> <!-- changed div to section -->
-            <img src="./assets/images/social-media-marketing.jpg" title="Hands around a table that has speech bubbles with 'like', 'share' 'tweet', 'media'. Social media icons on it also on table." class="float-left" /> <!-- added alt text -->
-            <h2>Social Media Marketing</h2>
-            <p>
-                Social media continues to have a sizable influence on buying habits. Social media marketing helps you determine which platforms are suited to your brand, using analytics to find the right markets and increase your lead generation.
-            </p>
-        </section> <!-- changed div to section -->
-    </main> <!-- changed div to main -->
+    <title>Aileen's Portfolio</title>
+  </head>
+  <body id="Home">
+    <!--Navigation-->
+    <nav class="navbar">
+      <a class="navbar" href="#home">Home</a> |
+      <a class="navbar" href="#about">About</a> |
+      <a class="navbar" href="#contact">Contact</a>
+      <a class="navbar" href="#work">Work</a> |
+      <a class="navbar" href="#contact">Contact</a>
+    </nav>
+
+    <div class="row">
+      <div class="column" id="about">
+        <header>Aileen Nguyen</header>
+        <h1>Software Developer</h1>
+        <h2>
+          I’m a software developer based in Los Angeles. I’m passionate about
+          creating function yet accessible applications that are pleasing to the
+          eye. 
+        </h2>
+      </div>
+      <div class="column">
+        <img
+          class="profilepic"
+          src="images/profile.png"
+          alt="Picture of Aileen in Black jacket with frozen waterfall in background"
+        />
+      </div>
+    </div>
+
+
+      <hr>  
+
+  <section class="work"> 
+    <header>My work</header>
+          <!--project 1-->
+          <div class="column" id="about">
+            <h1>Trackfit</h1>
+            <h2>
+                Trackfit, is a fitness application that allows users to plan workouts and track meals so that they can meet their fitness goals. Users can add workouts to their schedule and track if they’ve completed them. They can also add meals to see if they’ve reached their calorie or carb count.
+            </h2>
+            <button><a id="example" href="https://immense-savannah-94600-01fc64ff673b.herokuapp.com/" >See more</a</button>
+          </div>
+          <div class="column">
+
+         <a href="https://immense-savannah-94600-01fc64ff673b.herokuapp.com"><img src="images/trackfit.png" alt="image of application" class="profilepic" ></a>
+            
+          </div>
+
+          <div class="column3" id="about">
+            <a href="https://mylesjav.github.io/Reel-and-Meal/"><img src="images/reel.png" alt="image of application" class="workpic" ></a>
+            <a href="https://mylesjav.github.io/Reel-and-Meal/"> <h1>Reel and Meal</h1></a>
+            <h2>
+                Enter a movie and find your perfect meal! 
+            </h2>
+            
+          </div>
+          
+          
+          <div class="column3" id="about">
+            <a href="https://wingspan713-cf5fc81b0246.herokuapp.com/"><img src="images/bird.png" alt="image of application" class="workpic" ></a>
+            <a href="https://wingspan713-cf5fc81b0246.herokuapp.com/"> <h1>Wingspan</h1></a>
+            <h2>
+                A page for bird wathchers to post the birds they see and comment on other people's seen birds!
+            </h2>
+            
+          </div>
+
+          <div class="column3" id="about">
+            <a href="https://nguyenaileen.github.io/javascript-quiz/"><img src="images/quiz.png" alt="image of application" class="workpic" ></a>
+            <a href="https://nguyenaileen.github.io/javascript-quiz/"> <h1>Javascriptquiz</h1></a>
+            <h2>
+               A quiz for you to practice your javascript basics!
+            </h2>
+            
+          </div>
 
     
-    <aside class="benefits"> <!-- changed div to aside -->
-        <section class="benefit-aside"> <!-- changed div to section and changed to benefit aside -->
-            <h3>Lead Generation</h3>
-            <img src="./assets/images/lead-generation.png" title="Icon of half of a gear above a funnel with down arrow into a circle with money sign in middle"/> <!-- added alt text -->
-            <p>
-                Inbound strategies for lead generation require less work for your business, bringing customers directly to your website.
-            </p>
-        </section> <!-- changed div to section -->
-        <section class="benefit-aside"> <!-- changed div to section benefit aside-->
-            <h3>Brand Awareness</h3>
-            <img src="./assets/images/brand-awareness.png" title="Icon of body with radiating lightbulb as head" /> <!-- added alt text -->
-            <p>
-                Users find your business through paid and organic searches, increasing the search ranking and visibility for your business.
-            </p>
-        </section> <!-- changed div to section -->
-        <section class="benefit-aside"> <!-- changed div to section benefit aside-->
-            <h3>Cost Management</h3>
-            <img src="./assets/images/cost-management.png" title="three circles with dollar sign in middle with a gear behind them"/> <!-- added alt text -->
-            <p>
-                As the search ranking for your business increases, your advertising costs decrease, and you no longer need to advertise your page.
-            </p>
-        </section> <!-- changed div to section -->
-    </aside> <!-- changed div to aside -->
+      
+    </section>
 
-    <footer class="footer"> <!-- changed div to footer -->
-        <h4>Made with ❤️️ by Horiseon</h4> <!-- changed to h4 since it is less important -->
-        <p>
-            &copy; 2023 Horiseon Social Solution Services, Inc.
-        </p>
-    </footer> <!-- changed div to footer -->
-        
-</body>
+   
 
+    <hr>    
+
+    <section class="contact">
+        <header>Let's Connect</header>
+        <h4>Want to stay up-to-date with my work?</h4>
+        <h4>
+          Connect with me on
+          <a id="contact" href="https://www.linkedin.com/in/aileen-nguyen/"
+            >💼 LinkedIn</a
+          >, <a id="contact" href="https://github.com/nguyenaileen">💻 Github</a>,
+          or drop an <a id="contact" href="mailto:aileenn@gmail.com">📧 Email</a>!
+        </h4>
+      </section>
+
+   
+  </body>
 </html>

@@ -1,0 +1,174 @@
+
+  /* navigation */
+  nav {
+    font-family: Montserrat, sans-serif;
+    color: #6e6e6e;
+    background-color: #ffff;
+    font-weight: bold;
+    padding: 20px;
+    align-items: center;
+    float: center;
+    text-align: center;
+    margin-bottom: 40px;
+  }
+
+  .navbar {
+
+    padding-right:40px;
+    padding-left: 40px;
+    color: #6e6e6e;
+    text-decoration: none;
+  }
+
+
+  .navbar:hover {
+
+    padding-right: 30px;
+    padding-left: 30px;
+  }
+
+  a {
+    color:#cc5500;
+    text-decoration: none;
+  }
+
+  a:hover {
+    text-decoration: underline;
+  }
+  
+  /* about section */
+  #about{
+    text-align: center;
+    background-color: #ffff;
+    color: #6e6e6e;
+    
+  }
+
+  .profilepic{
+    border: solid #cc5500;
+    border-width: 5px;
+    
+    max-height: 250px;
+  }
+
+  header {
+    font-family: Montserrat;  
+    font-weight: bold;
+      font-size: 40px;
+      padding: 8px;
+      text-align: center;
+    color: #cc5500;
+    }
+
+    h1 {
+      font-family: Montserrat;  
+      font-weight: bold;
+        font-size: 25px;
+        padding: 8px;
+        text-align: center;
+      }    
+
+    
+    h2 {
+      font-family: Montserrat;  
+      font-weight: ;
+        font-size: 15px;
+        padding: 8px;
+        text-align: center;
+      }    
+
+  * {
+    box-sizing: border-box;
+  }
+  
+  /* Create two equal columns that floats next to each other */
+  .column {
+    float: left;
+    width: 50%;
+    padding: 10px;
+    height: 300px; 
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+  @media screen and (max-width: 768px) {
+    .column {
+      width: 100%;
+    }
+  }
+
+
+h4 {
+  text-align: center;
+  font-family: Montserrat, sans-serif;
+  color: #6e6e6e;
+  line-height:1;
+}
+  
+  /* Adjusts to the size of screen */
+  @media screen and (max-width: 768px) {
+    .card-container {
+   flex-wrap: wrap;
+  }
+  .card{
+  width:100%;
+  }
+  header{
+  text-align: center;
+  }
+  .button{
+  padding: 0;
+  }
+  }
+
+/* colums for work */
+  .column3 {
+    float: left;
+    width: 33%;
+    padding: 10px;
+    height: 400px; 
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+  @media screen and (max-width: 768px) {
+    .column3 {
+      width: 100%;
+    }
+  }
+
+  button {
+    color: white;
+    border-radius: 10px;
+    background-color: #cc5500;
+    font-family: Montserrat;
+    border: none;
+    box-shadow: 5px;
+    padding: 10px;
+  }
+
+  #example {
+    color: white;
+  }
+
+  .workpic{
+    border: solid #cc5500;
+    border-width: 5px;
+    
+    width: 100%;
+  }
+.contact{
+
+}
